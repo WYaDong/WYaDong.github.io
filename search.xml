@@ -98,6 +98,9 @@
 <p>​ <code>&lt;!-- 例子:  --&gt;</code><br>​ <code>[//]: 你好</code><br>​ <!-- 例子:  --></p>
 </blockquote>
 ]]></content>
+      <categories>
+        <category>web前端</category>
+      </categories>
       <tags>
         <tag>macdown</tag>
       </tags>
