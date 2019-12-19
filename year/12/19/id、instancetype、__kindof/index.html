@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="macdown," />
+  <meta name="keywords" content="OC," />
 
 
 
@@ -81,20 +81,18 @@
 
 
 
-<meta name="description" content="1.标题">
-<meta name="keywords" content="macdown">
+<meta name="description" content="id、instancetype、__kindof">
+<meta name="keywords" content="OC">
 <meta property="og:type" content="article">
-<meta property="og:title" content="macdown语法">
-<meta property="og:url" content="https://wyadong.github.io/macdown语法/index.html">
+<meta property="og:title" content="id、instancetype、__kindof">
+<meta property="og:url" content="https://wyadong.github.io/year/12/19/id、instancetype、__kindof/index.html">
 <meta property="og:site_name" content="yadong">
-<meta property="og:description" content="1.标题">
+<meta property="og:description" content="id、instancetype、__kindof">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://avatars3.githubusercontent.com/u/25336066?s=100&v=10"示例图片1"">
-<meta property="og:updated_time" content="2019-12-19T07:25:09.998Z">
+<meta property="og:updated_time" content="2019-12-19T07:48:05.749Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="macdown语法">
-<meta name="twitter:description" content="1.标题">
-<meta name="twitter:image" content="https://avatars3.githubusercontent.com/u/25336066?s=100&v=10"示例图片1"">
+<meta name="twitter:title" content="id、instancetype、__kindof">
+<meta name="twitter:description" content="id、instancetype、__kindof">
 
 
 
@@ -124,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="https://wyadong.github.io/macdown语法/"/>
+  <link rel="canonical" href="https://wyadong.github.io/year/12/19/id、instancetype、__kindof/"/>
 
 
 
 
 
-  <title>macdown语法 | yadong</title>
+  <title>id、instancetype、__kindof | yadong</title>
   
 
 
@@ -301,7 +299,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://wyadong.github.io/macdown语法/">
+    <link itemprop="mainEntityOfPage" href="https://wyadong.github.io/year/12/19/id、instancetype、__kindof/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="yadong">
@@ -318,7 +316,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">macdown语法</h1>
+          <h1 class="post-title" itemprop="name headline">id、instancetype、__kindof</h1>
         
 
         <div class="post-meta">
@@ -330,8 +328,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-11T17:01:10+08:00">
-                2018-04-11
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-12-19T11:42:43+08:00">
+                2019-12-19
               </time>
             
 
@@ -346,7 +344,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2019-12-19T15:25:09+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2019-12-19T15:48:05+08:00">
                 2019-12-19
               </time>
             
@@ -365,8 +363,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/web前端/" itemprop="url" rel="index">
-                    <span itemprop="name">web前端</span>
+                  <a href="/categories/手机开发/" itemprop="url" rel="index">
+                    <span itemprop="name">手机开发</span>
                   </a>
                 </span>
 
@@ -383,8 +381,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/macdown语法/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/macdown语法/" itemprop="commentCount"></span>
+                <a href="/year/12/19/id、instancetype、__kindof/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/year/12/19/id、instancetype、__kindof/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -411,7 +409,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  291
+                  462
                 </span>
               
 
@@ -436,100 +434,21 @@
       
 
       
-        <h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><a id="more"></a>
-<blockquote>
-<p>​<code># 一级标题​</code><br>​<code>## 二级标题​</code><br>​<code>###三级标题​</code><br>​<code>#### 四级标题​</code><br>​<code>##### 五级标题​</code><br>​<code>###### 六级标题​</code></p>
+        <h2 id="id、instancetype、-kindof"><a href="#id、instancetype、-kindof" class="headerlink" title="id、instancetype、__kindof"></a>id、instancetype、__kindof</h2><a id="more"></a>
+<h3 id="instancetype"><a href="#instancetype" class="headerlink" title="instancetype"></a>instancetype</h3><blockquote>
+<p>关联返回类型(related result types):<br> 根据Cocoa的命名规则，满足下述规则的方法被称为是关联返回类型的方法：<br> 1.类方法中，以alloc或new开头且返回一个方法所在类类型的对象<br> 2.实例方法中，以autorelease，init，retain或self开头且返回一个方法所在类类型的对象</p>
 </blockquote>
-<blockquote>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></blockquote>
-<h2 id="2-粗体、斜体、删除线"><a href="#2-粗体、斜体、删除线" class="headerlink" title="2.粗体、斜体、删除线"></a>2.粗体、斜体、删除线</h2><blockquote>
-<p><code>*斜体*</code><br><code>**粗体**</code><br><code>***加粗斜体***</code><br><code>~~删除线~~</code></p>
+<p>从xcode5开始支持instancetype.<br>instancetype的作用，就是使(关联返回类型或非关联返回类型)方法返回所在类的类型！<br><a href="https://blog.csdn.net/wzzvictory/article/details/16994913" target="_blank" rel="noopener">参考:https://blog.csdn.net/wzzvictory/article/details/16994913</a></p>
+<h5 id="id-amp-instancetype"><a href="#id-amp-instancetype" class="headerlink" title="id &amp; instancetype"></a>id &amp; instancetype</h5><blockquote>
+<p>1.相同点<br> 都可以作为方法的返回类型<br> 2.不同点<br> ①instancetype可以返回和方法所在类相同类型的对象，id只能返回未知类型的对象;<br> ②instancetype只能作为返回值，不能像id那样作为参数<br> ③instancetype在编译的时候判断对象的真实类型,id在编译的时候不能判断对象的真实类型</p>
 </blockquote>
-<blockquote>
-<p><em>斜体</em><br><strong>粗体</strong><br><strong><em>加粗斜体</em></strong><br><del>删除线</del></p>
+<h3 id="kindof"><a href="#kindof" class="headerlink" title="__kindof"></a>__kindof</h3><blockquote>
+<p><strong>kindof是iOS9(xcode7)出来的关键字,表示当前类或者它的子类.<br> 1.</strong>kindof在编译的时候判断对象的真实类型.<br> 2.__kindof可以修饰参数</p>
 </blockquote>
-<h2 id="3-引用块"><a href="#3-引用块" class="headerlink" title="3.引用块"></a>3.引用块</h2><p><code>&gt; 文字引用</code></p>
-<blockquote>
-<p>文字引用</p>
-</blockquote>
-<h2 id="4-代码块"><a href="#4-代码块" class="headerlink" title="4.代码块"></a>4.代码块</h2><blockquote>
-<p>  ` 行内代码` </p>
-</blockquote>
-<blockquote>
-<p> <code>行内代码</code></p>
-</blockquote>
-<blockquote>
-<p>​` ` `<br>  多行代码 ` ` ` </p>
-</blockquote>
-<p>​<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">多行代码</span><br></pre></td></tr></table></figure></p>
-<h2 id="5-分割线"><a href="#5-分割线" class="headerlink" title="5.分割线"></a>5.分割线</h2><blockquote>
-<p>​<code>---​</code><br>​<code>***​</code></p>
-</blockquote>
-<blockquote>
-<hr>
-<hr>
-</blockquote>
-<h2 id="6-列表"><a href="#6-列表" class="headerlink" title="6.列表"></a>6.列表</h2><blockquote>
-<p>​<code>1. 有序列表项​</code></p>
-</blockquote>
-<blockquote>
-<p>​<code>* 无序列表项​</code><br>​<code>+ 无序列表项​</code><br>​<code>- 无序列表项​</code></p>
-</blockquote>
-<blockquote>
-<ol>
-<li>有序列表项</li>
-</ol>
-</blockquote>
-<blockquote>
-<ul>
-<li>无序列表项</li>
-</ul>
-<ul>
-<li>无序列表项</li>
-</ul>
-<ul>
-<li>无序列表项</li>
-</ul>
-</blockquote>
-<h2 id="7-表格"><a href="#7-表格" class="headerlink" title="7.表格"></a>7.表格</h2><p>​ <code>表头1|表头2​</code><br>​ <code>-|-|-​</code><br>​ <code>内容11|内容12​</code><br>​ <code>内容21|内容22​</code></p>
-<table>
-<thead>
-<tr>
-<th>表头1</th>
-<th>表头2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>内容11</td>
-<td>内容12</td>
-</tr>
-<tr>
-<td>内容21</td>
-<td>内容22</td>
-</tr>
-</tbody>
-</table>
-<h2 id="8-超链接"><a href="#8-超链接" class="headerlink" title="8.超链接"></a>8.超链接</h2><blockquote>
-<p>​ <code>方法一：[链接文字](链接地址 &quot;链接描述&quot;)​</code><br>​ 例如：<a href="https://www.example.com/" title="示例链接" target="_blank" rel="noopener">示例链接</a></p>
-</blockquote>
-<blockquote>
-<p>​ <code>方法二：​&lt;链接地址&gt;​</code><br>​ 例如：<a href="https://www.example.com/" target="_blank" rel="noopener">https://www.example.com/</a></p>
-</blockquote>
-<h2 id="9-图片"><a href="#9-图片" class="headerlink" title="9.图片"></a>9.图片</h2><blockquote>
-<p>​ <code>![图片文字](图片地址 &quot;图片描述&quot;)</code></p>
-</blockquote>
-<blockquote>
-<p>​ <code>![图片名称](图片网址)</code></p>
-</blockquote>
-<blockquote>
-<p>​ 例如：<img src="https://avatars3.githubusercontent.com/u/25336066?s=100&amp;v=10&quot;示例图片1&quot;" alt="示例图片"></p>
-</blockquote>
-<h2 id="10-注释"><a href="#10-注释" class="headerlink" title="10.注释"></a>10.注释</h2><blockquote>
-<p>​ <code>[comment]: 注释内容</code><br>​ <code>&lt;!-- 注释内容  --&gt;</code></p>
-</blockquote>
-<blockquote>
-<p>​ <code>&lt;!-- 例子:  --&gt;</code><br>​ <code>[//]: 你好</code><br>​ <!-- 例子:  --></p>
+<p>主要代码:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">@interface People : NSObject</span><br><span class="line">-(id)idPeople;</span><br><span class="line">-(instancetype)instancetyPepeople;</span><br><span class="line">-(__kindof People*)kindofPepeople;</span><br><span class="line"></span><br><span class="line">-(instancetype)instancetyMan;</span><br><span class="line">-(__kindof People *)kindofMan;</span><br><span class="line">@end</span><br><span class="line"></span><br><span class="line">@implementation People</span><br><span class="line">-(id)idPeople&#123;</span><br><span class="line">    return [[People alloc] init];</span><br><span class="line">&#125;</span><br><span class="line">-(instancetype)instancetyPepeople&#123;</span><br><span class="line">    return [[People alloc] init];</span><br><span class="line">&#125;</span><br><span class="line">-(__kindof People*)kindofPepeople&#123;</span><br><span class="line">     return [[People alloc] init];</span><br><span class="line">&#125;</span><br><span class="line">-(instancetype)instancetyMan&#123;</span><br><span class="line">    return [[Man alloc] init];</span><br><span class="line">&#125;</span><br><span class="line">-(__kindof People*)kindofMan&#123;</span><br><span class="line">     return [[Man alloc] init];</span><br><span class="line">&#125;</span><br><span class="line">@end</span><br><span class="line"></span><br><span class="line">//Man为People子类</span><br><span class="line">@interface Man : People</span><br><span class="line">@end</span><br></pre></td></tr></table></figure></p>
+<p>test代码:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">调用如下:</span><br><span class="line">People *p = [[People alloc] init];</span><br><span class="line">p = [p idPeople];</span><br><span class="line">p = [p instancetyPepeople];</span><br><span class="line">p = [p kindofPepeople];</span><br><span class="line">    </span><br><span class="line">People *mp = [p instancetyMan];</span><br><span class="line">Man *m = [p instancetyMan];//编译器警告如下:</span><br><span class="line">//Incompatible pointer types initializing &apos;Man *&apos; with an expression of type &apos;People *&apos;</span><br><span class="line">    </span><br><span class="line"> People *kp = [p kindofMan];</span><br><span class="line"> Man *km = [p kindofMan];</span><br></pre></td></tr></table></figure></p>
+<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><blockquote>
+<p>自定义构造方法, 返回值尽量使用instancetype, 不要使用id<br> __kindof能使代码结构更清晰,使用</p>
 </blockquote>
 
       
@@ -590,7 +509,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://wyadong.github.io/macdown语法/" title="macdown语法">https://wyadong.github.io/macdown语法/</a>
+    <a href="https://wyadong.github.io/year/12/19/id、instancetype、__kindof/" title="id、instancetype、__kindof">https://wyadong.github.io/year/12/19/id、instancetype、__kindof/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -605,7 +524,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/macdown/" rel="tag"><i class="fa fa-tag"></i> macdown</a>
+            <a href="/tags/OC/" rel="tag"><i class="fa fa-tag"></i> OC</a>
           
         </div>
       
@@ -618,15 +537,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/year/12/13/分类标签/" rel="next" title="分类标签">
+                <i class="fa fa-chevron-left"></i> 分类标签
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/分类标签/" rel="prev" title="分类标签">
-                分类标签 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -702,7 +621,7 @@
                 </a>
             
               <p class="site-author-name" itemprop="name">yadong</p>
-              <p class="site-description motion-element" itemprop="description">性痴则其志凝。故书痴者文必工,艺痴者技必良。世之落拓而无成者,皆自谓不痴者也。</p>
+              <p class="site-description motion-element" itemprop="description">性痴则其志凝。故书痴者文必工,艺痴者技必良。世之落拓而无成者,皆自谓不痴者也。#网栈描述</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -784,7 +703,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-标题"><span class="nav-number">1.</span> <span class="nav-text">1.标题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一级标题"><span class="nav-number"></span> <span class="nav-text">一级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#二级标题"><span class="nav-number">1.</span> <span class="nav-text">二级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#三级标题"><span class="nav-number">1.1.</span> <span class="nav-text">三级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#四级标题"><span class="nav-number">1.1.1.</span> <span class="nav-text">四级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#五级标题"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">五级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#六级标题"><span class="nav-number">1.1.1.1.1.</span> <span class="nav-text">六级标题</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-粗体、斜体、删除线"><span class="nav-number">2.</span> <span class="nav-text">2.粗体、斜体、删除线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-引用块"><span class="nav-number">3.</span> <span class="nav-text">3.引用块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-代码块"><span class="nav-number">4.</span> <span class="nav-text">4.代码块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-分割线"><span class="nav-number">5.</span> <span class="nav-text">5.分割线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-列表"><span class="nav-number">6.</span> <span class="nav-text">6.列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-表格"><span class="nav-number">7.</span> <span class="nav-text">7.表格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-超链接"><span class="nav-number">8.</span> <span class="nav-text">8.超链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#9-图片"><span class="nav-number">9.</span> <span class="nav-text">9.图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#10-注释"><span class="nav-number">10.</span> <span class="nav-text">10.注释</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#id、instancetype、-kindof"><span class="nav-number">1.</span> <span class="nav-text">id、instancetype、__kindof</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#instancetype"><span class="nav-number">1.1.</span> <span class="nav-text">instancetype</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#id-amp-instancetype"><span class="nav-number">1.1.0.1.</span> <span class="nav-text">id &amp; instancetype</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#kindof"><span class="nav-number">1.2.</span> <span class="nav-text">__kindof</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#小结"><span class="nav-number">1.3.</span> <span class="nav-text">小结</span></a></li></ol></li></ol></div>
             
 
           </div>
