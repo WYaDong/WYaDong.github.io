@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>摄影知识</title>
+    <url>/2019/12/19/%E6%91%84%E5%BD%B1/</url>
+    <content><![CDATA[<h2 id="构图"><a href="#构图" class="headerlink" title="构图"></a>构图</h2><a id="more"></a>
+<h4 id="常用构图"><a href="#常用构图" class="headerlink" title="常用构图"></a>常用构图</h4><blockquote>
+<p>1.黄金分割构图<br>  2.三分法构图<br>  4.斜线构图<br>  5.对称构图<br>  6.低角度构图<br>    拍摄这样的照片比较具有挑战性，你需要蹲着、坐下、跪着或者躺下才能来贴紧地面拍摄照片。但是这样做非常值得，因为它能给你带来非同寻常的视觉体验。<br>  7.仰视构图<br>  8.俯视构图</p>
+</blockquote>
+<h4 id="其他构图方式"><a href="#其他构图方式" class="headerlink" title="其他构图方式"></a>其他构图方式</h4><blockquote>
+<p>9.s型构图<br>  10.引导线构图<br>  11.框式构图<br>  12.中心式构图<br>  13.反射式构图<br>  14.穿透式构图</p>
+</blockquote>
+<h2 id="色彩选择"><a href="#色彩选择" class="headerlink" title="色彩选择"></a>色彩选择</h2><blockquote>
+<p>1.色相:色彩的相貌<br>2.饱和度:色彩的鲜艳程度<br>3.明度:颜色的亮度</p>
+</blockquote>
+<p>一般用互补色:加强视觉上的饱和度,色相纯度表现更强烈.如下图:<br><img src="/2019/12/19/摄影/对比色.jpg" title="对比色图"></p>
+<h2 id="用光"><a href="#用光" class="headerlink" title="用光"></a>用光</h2><h4 id="顺光"><a href="#顺光" class="headerlink" title="顺光"></a>顺光</h4><blockquote>
+<p>优点：在这样的光线环境下，主体色彩以及形态等细节特征都可以得到很好的表现。<br>缺点：顺光拍摄会使主体没有明显的明暗变化，从而缺乏层次感和##### 立体感，使画面表现略显平淡。<br>        小技巧：可以为画面安排一些前景，来增加画面的空间感。</p>
+</blockquote>
+<h4 id="测光"><a href="#测光" class="headerlink" title="测光"></a>测光</h4><p>光在主体上留下明暗区域.让主体呈现更明显的层次感<br><figure class="highlight makefile"><table><tr><td class="code"><pre><span class="line"><span class="section">1.前测光:常用于拍摄建筑、人像、花卉题材,前45度光线</span></span><br><span class="line">2.侧逆光</span><br></pre></td></tr></table></figure></p>
+<h4 id="逆光"><a href="#逆光" class="headerlink" title="逆光"></a>逆光</h4><p>拍摄难度大,但能排出大片;剪影也常用逆光.可以利用反光板或者灯具对人物面部进行补光，可以获得温暖清新的逆光效果。</p>
+<h4 id="顶光"><a href="#顶光" class="headerlink" title="顶光"></a>顶光</h4><p>顶光在拍摄静物题材等需要表现被摄主体顶部细节的时候使用。</p>
+<h4 id="脚光"><a href="#脚光" class="headerlink" title="脚光"></a>脚光</h4><p>脚光的视觉效果会下意识给人一种神秘、阴森、诡异的感觉。</p>
+<h2 id="后期处理"><a href="#后期处理" class="headerlink" title="后期处理"></a>后期处理</h2><blockquote>
+<p>1.亮度 : 画面整体的明暗程度<br>2.对比度 : 画面对比程度,让亮部更亮,暗部更暗<br>3.饱和度 : 画面整体颜色的浓郁程度<br>4.氛围 : 综合画面的光线,恢复亮部与暗部的细节<br>5.高光 : 控制画面中较亮的部分<br>6.阴影 : 控制画面中亮度较低的部分<br>7.暖色调 : 调整画面的冷暖色调</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
+      <tags>
+        <tag>生活技巧</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>id、instancetype、__kindof</title>
     <url>/2019/12/19/id%E3%80%81instancetype%E3%80%81__kindof/</url>
     <content><![CDATA[<h2 id="id、instancetype、-kindof"><a href="#id、instancetype、-kindof" class="headerlink" title="id、instancetype、__kindof"></a>id、instancetype、__kindof</h2><a id="more"></a>
@@ -30,22 +62,15 @@
   <entry>
     <title>分类标签</title>
     <url>/2019/12/13/%E5%88%86%E7%B1%BB%E6%A0%87%E7%AD%BE/</url>
-    <content><![CDATA[<p>所有类型都带原创/非原创标签</p>
-<ul>
-<li>编程语言<a id="more"></a></li>
-<li>软件设计<br>  1.架构设计<br>  2.设计模式<br>  3.面向对象<br>  4.创新驱动设计</li>
-<li>手机开发<br>  1.OC<br>  2.swift</li>
-<li>混合开发</li>
-<li>web前端</li>
-<li>web后端技术</li>
-<li>数据库技术</li>
-<li>企业信息化<br>  1.erp<br>  2.sap</li>
-<li>软件工程<br>  1.敏捷开发<br>  2.项目与团队管理</li>
-<li>操作系统</li>
-<li>记录</li>
-<li>随笔</li>
-</ul>
-]]></content>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">博主不想公开。请输入密码后摁《回车键》,查看文章。</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="ba6038c13b23c5397d477733b8f48ba55efabecf54b79f3e0190dc7e737d34b2">337a10da65c5cd321dac8121139cf5d979bf90eb33281f4d1a40643f6ce5fb3f1f6591f32a806750e989843688ca3f994f3c8c82aa96f3066fa67d4fcd561300c108680e2f366594b6f295dd53570e4bf2c49e4b26a9db64c64c71511ecc9c5f66cc1c34e608e85cc65867b16b3950a71168db5f99ff66d6cb34bb825b914b22ac60d3102c4abf111a71a8a4bf17f04c4a882bc52d6d4b7a818611f0bd9d82b52362813e140f1c66fa8ce4cf599581b906358dc32d9045371e877d06d903ed4ca439413dce09c1773e892b0575ba1edf2a1ec2860b1621b0c4a9b40a5a8424f017067c649e958ae19c7b86856f7a0aacb10e43008e8686e40219e1f0e37d7c5b1cf5e8af8a5907789604ed88c8e3c29e3e72bc0213c2df9d6399c704c810b9ac0c4f1ef6525087200756a0769a927bc4195bd9a7e10a8ea854b4ac0978619d892215ed24cbfd35f1d1a8c156640f1a58313bb657e1af078debb591772fe287f33e1c0be98de0f77bde694bb9f5f68856ca066467743e0716e17a0a30e5e03cc3277cb71d453330de402dd7e68ac4d06194a5278a30bc9b9bb7d83e659d07a484d9408fce5d1f131a3a4622e78b6a7a6ea6e0ed17c1141e7257c98794ec8d9efe61738c21a0e4b3a883ba7e3ba2a9ddcfa8d496b3639cd83d5e17309d80830d927b58d258c68d1c705f61eabfe1adac8133cb812e89aa5b87a23b3659e176cc94f7fa61e2d270092a70090f2f0b8d012c3424ec07c313f2fce1dbb4532cf5beef3cfba8b5f8064f4494d5d091a7e557e9e0afa01ff9de6aa1bc9c57e0513a9d54</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>记录</category>
       </categories>
