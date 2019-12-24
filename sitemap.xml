@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wyadong.github.io/about/index.html</loc>
+    
+    <lastmod>2019-12-24T07:39:24.610Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wyadong.github.io/2019/12/24/python%E4%B8%ADimport%E5%92%8Cfrom-import%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
     
     <lastmod>2019-12-24T03:39:27.267Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>https://wyadong.github.io/404/index.html</loc>
     
     <lastmod>2019-12-14T02:21:57.028Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wyadong.github.io/about/index.html</loc>
-    
-    <lastmod>2019-12-13T10:37:15.357Z</lastmod>
     
   </url>
   
