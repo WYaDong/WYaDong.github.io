@@ -1,6 +1,207 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>iOS设备屏幕尺寸</title>
+    <url>/2020/01/16/iOS%E8%AE%BE%E5%A4%87%E5%B1%8F%E5%B9%95%E5%B0%BA%E5%AF%B8/</url>
+    <content><![CDATA[<h4 id="设备尺寸"><a href="#设备尺寸" class="headerlink" title="设备尺寸"></a>设备尺寸</h4><a id="more"></a>
+<table>
+<thead>
+<tr>
+<th>设备型号</th>
+<th>屏幕尺寸(inch)</th>
+<th>物理尺寸（px）</th>
+<th>屏幕像素密度（ppi）</th>
+<th>开发尺寸（pt）</th>
+<th>像素尺寸（px）</th>
+<th>Scale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>iPhone系列</td>
+<td></td>
+</tr>
+<tr>
+<td>3G/3GS(08-09)</td>
+<td>3.5</td>
+<td>320*480</td>
+<td>163</td>
+<td>320*480</td>
+<td>320*480</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4/4s</td>
+<td>3.5</td>
+<td>640*960</td>
+<td>326</td>
+<td>320*480</td>
+<td>640*960</td>
+<td>2</td>
+</tr>
+<tr>
+<td>5/5s/se</td>
+<td>4</td>
+<td>640*1136</td>
+<td>326</td>
+<td>320*568</td>
+<td>640*1136</td>
+<td>2</td>
+</tr>
+<tr>
+<td>6/6s/7/8</td>
+<td>4.7</td>
+<td>750*1334</td>
+<td>326</td>
+<td>375*667</td>
+<td>750*1334</td>
+<td>2</td>
+</tr>
+<tr>
+<td>6p/6sp/7p/8p</td>
+<td>5.5</td>
+<td>1080*1920</td>
+<td>401</td>
+<td>414*736</td>
+<td>1242*2208</td>
+<td>3</td>
+</tr>
+<tr>
+<td>XR/11</td>
+<td>6.1</td>
+<td>828*1792</td>
+<td>326</td>
+<td>414*896</td>
+<td>828*1792</td>
+<td>2</td>
+</tr>
+<tr>
+<td>X/XS/11Pro</td>
+<td>5.8</td>
+<td>1125*2436</td>
+<td>458</td>
+<td>375*812</td>
+<td>1125*2436</td>
+<td>3</td>
+</tr>
+<tr>
+<td>XSMax/11ProMax</td>
+<td>6.5</td>
+<td>1242*2688</td>
+<td>458</td>
+<td>414*896</td>
+<td>1242*2688</td>
+<td>3</td>
+</tr>
+<tr>
+<td>iPad系列</td>
+<td></td>
+</tr>
+<tr>
+<td>min          ｜ 7.9</td>
+<td>768*1024</td>
+<td>163</td>
+<td>768*1024</td>
+<td>768*1024</td>
+<td>1</td>
+</tr>
+<tr>
+<td>min2-4       ｜ 7.9</td>
+<td>1536*2048</td>
+<td>326</td>
+<td>768*1024</td>
+<td>1536*2048</td>
+<td>2</td>
+</tr>
+<tr>
+<td>iPad2        ｜ 9.7</td>
+<td>768*1024</td>
+<td>132</td>
+<td>768*1024</td>
+<td>768*1024</td>
+<td>1</td>
+</tr>
+<tr>
+<td>iPad3-6 Pro9.7 Air1-2｜ 9.7</td>
+<td>1536*2048</td>
+<td>264</td>
+<td>768*1024</td>
+<td>1536*2048</td>
+<td>2</td>
+</tr>
+<tr>
+<td>iPad7        ｜ 10.2</td>
+<td>1620*2160</td>
+<td>264</td>
+<td>810*1080</td>
+<td>1620*2160</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Pro10.5  Air3｜ 10.5</td>
+<td>1668*2224</td>
+<td>264</td>
+<td>834* 1112</td>
+<td>1668*2224</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Pro11        ｜ 11</td>
+<td>1668*2388</td>
+<td>264</td>
+<td>834* 1194</td>
+<td>1668*2388</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Pro12.59:1-2 ｜ 12.9</td>
+<td>2048*2732</td>
+<td>264</td>
+<td>1024*1366</td>
+<td>2048*2732</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<h4 id="iPad相关机型发布时间"><a href="#iPad相关机型发布时间" class="headerlink" title="iPad相关机型发布时间"></a>iPad相关机型发布时间</h4><ul>
+<li>iPad系列</li>
+</ul>
+<blockquote>
+<p>Pad (2010 )<br> iPad2 (2011)<br> iPad3(2012)<br> iPad4(2012)<br> iPad5(2017)<br> iPad6(2018)<br> iPad7（2019）</p>
+</blockquote>
+<ul>
+<li>iPad mini系列</li>
+</ul>
+<blockquote>
+<p>iPad mini (2012)<br> iPad mini2(2013)<br> iPad mini3(2014)<br> iPad mini4(2015)</p>
+</blockquote>
+<ul>
+<li>iPad Air系列</li>
+</ul>
+<blockquote>
+<p>iPad Air(2013)<br> iPad Air 2(2014)<br> iPad Air 3(2019)</p>
+</blockquote>
+<ul>
+<li>iPad Pro系列</li>
+</ul>
+<blockquote>
+<p>iPad Pro-12.9 (2015)<br> iPad Pro2-12.9 (2017)<br> iPad Pro3-12.9 (2019)<br> iPad Pro-11 （2018）<br> iPad Pro-9.7（2016）<br> iPad Pro-10.5（2017）</p>
+</blockquote>
+<h4 id="相关内容说明"><a href="#相关内容说明" class="headerlink" title="相关内容说明"></a>相关内容说明</h4><blockquote>
+<p>1.ppi = (物理像素宽)与(物理像素高)的平方的和,开方后 除以 (屏幕尺寸); ppi越高,颗粒感越弱,分辨率越高。<br> 2.dpi = (开发尺寸宽)与(开发尺寸高)的平方的和,开方后 除以 (屏幕尺寸)<br> 3.plus系列的PPI是401，理论上苹果应该采用401 / 326 * @2x = @2.46x的素材，这个比例对于开发者而言很难切图，所以Apple为了方便开发者就采用了@3x的素材，然后再缩放到@2.46x的屏幕上，也就是缩放到2.46 / 3 = 82%。实际上Apple选取了一个接近比例的87%，这样算下来，物理分辨率和虚拟分辨率的比例是87%，也就是1080 / 1242 ≈ 0.87， 1920 / 2208 ≈ 0.87。</p>
+</blockquote>
+<h4 id="建议反馈"><a href="#建议反馈" class="headerlink" title="建议反馈"></a>建议反馈</h4><blockquote>
+<p>搜集整理花了不少时间，有错误欢迎留言评论</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>手机开发</category>
+      </categories>
+      <tags>
+        <tag>IOS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2019年总结与2020规划</title>
     <url>/2019/12/31/2019%E5%B9%B4%E6%80%BB%E7%BB%93%E4%B8%8E2020%E8%A7%84%E5%88%92/</url>
     <content><![CDATA[<h2 id="工作"><a href="#工作" class="headerlink" title="工作"></a>工作</h2><a id="more"></a>
@@ -120,8 +321,8 @@
         <category>手机开发</category>
       </categories>
       <tags>
-        <tag>OC</tag>
         <tag>IOS</tag>
+        <tag>OC</tag>
       </tags>
   </entry>
   <entry>
